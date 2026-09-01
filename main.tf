@@ -13,3 +13,7 @@ resource "azurerm_resource_group" "rg001" {
   name     = "dev-rg"
   location = "southindia"
 }
+resource "azurerm_resource_group" "rg002" {
+  name     = "test-rg"
+  location = "southindia"
+}
